@@ -1,0 +1,50 @@
+.contact {
+  .container {
+    margin-top: 8rem;
+    .row {
+      .lefttt {
+        text-align-last: "left";
+      }
+      .col-xl-6 {
+        h1 {
+          font-size: 46px;
+        }
+        p {
+          text-align: left;
+          margin-top: 2rem;
+          padding-right: 40px;
+          margin-bottom: 2rem;
+        }
+        .zigzag {
+          width: 45px;
+          margin-top: 1rem;
+        }
+        img {
+          width: 100%;
+        }
+
+        .logo-text {
+          display: flex;
+          margin-bottom: 0rem;
+          margin-top: 0rem;
+
+          .logo {
+            svg {
+              margin-right: 5px;
+              position: relative;
+              top: 3px;
+              font-size: 35px;
+            }
+          }
+          .text {
+            h6 {
+            }
+            p {
+              margin-top: 0rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

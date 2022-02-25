@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 1 !important;
+  border: 1px solid !important;
+  padding: 0 !important;
+  border-radius: 43px !important;
+  color: #fa0752 !important;
+}
+.slick-dots li button:before {
+  font-family: "slick";
+  font-size: 8px !important;
+}
+
+p {
+  color: #4b4b4b;
+}

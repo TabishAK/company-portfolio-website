@@ -1,0 +1,13 @@
+.brands {
+  display: grid;
+  .container {
+    margin-top: 3rem;
+    .row {
+      .col {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

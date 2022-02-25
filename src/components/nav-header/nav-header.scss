@@ -1,0 +1,22 @@
+.nav-header {
+  justify-content: space-around;
+  display: flex;
+  position: relative;
+  height: fit-content;
+  margin-top: 12px;
+
+  .whole-sale-login {
+    color: white;
+
+    span {
+      font-size: 16px;
+      margin: 3px;
+    }
+    svg {
+      color: white;
+
+      margin: 0px 3px;
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,352 @@
+@media (min-width: 1200px) {
+}
+
+@media (max-width: 1199px) {
+  .contact .container .row .col-xl-6 img {
+    width: 100%;
+    position: relative;
+    margin-top: 6rem;
+  }
+
+  .card-panel .row {
+    left: 0 !important;
+    .col-xl-4 .card {
+      padding: 30px 30px !important;
+    }
+  }
+
+  .nav-links {
+    margin: 8px !important;
+  }
+
+  .product-categories .container .row .col-xl-4 div {
+    width: 265px;
+    height: 255px;
+    margin-top: 2rem;
+    border-radius: 12px;
+  }
+
+  .capabilities .container .col-xl-6 .video-thumbnail img {
+    width: 100% !important;
+    height: 22rem;
+    position: relative;
+    top: 26px;
+  }
+
+  .card-img-overlay {
+    width: 285px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .subscribe .container .subscribe-stuff {
+    input {
+      height: 35px !important;
+      padding: 15px !important;
+      font-size: 14px !important;
+    }
+    button {
+      padding: 6px 14px !important;
+    }
+  }
+
+  .subscribe .container .subscribe-stuff p {
+    font-size: 12px !important;
+  }
+
+  .news-testimonials .container .row .col-xl-8 {
+    text-align: center;
+    h1 {
+      text-align: center !important;
+    }
+  }
+
+  .news-testimonials .container .row .col-xl-4 {
+    text-align: -webkit-center;
+    margin-top: 5rem;
+
+    h1 {
+      text-align: center !important;
+    }
+  }
+
+  .quality {
+    height: 30rem;
+  }
+  .card {
+    top: -18px !important;
+  }
+  .card-img-overlay {
+    width: 215px !important;
+    top: 65px !important;
+    height: 20rem !important;
+    padding: 18px !important;
+
+    h2 {
+      font-size: 22px !important;
+      line-height: 25px !important;
+    }
+    .card-text {
+      font-size: 14px;
+    }
+  }
+
+  .count-up .container .row .col-xl-3 {
+    margin-bottom: 1rem;
+  }
+
+  .card-panel .row .col-xl-4 .card {
+    padding: 18px 16px !important;
+    text-align: center;
+    align-items: center;
+  }
+
+  .capabilities .container .col-xl-6 .video-thumbnail img {
+    height: 18rem !important;
+    top: 50px !important;
+  }
+
+  .product-categories .container .row .col-xl-4 div {
+    width: 195px !important;
+    height: 180px !important;
+    h3 {
+      font-size: 18px !important;
+      position: relative !important;
+      top: 138px !important;
+      left: 16px !important;
+    }
+  }
+
+  .card-panel {
+    top: -150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .instagram .insta-images div img {
+    width: 125px !important;
+    margin: 2px !important;
+  }
+
+  .instagram .insta-images {
+    flex-wrap: wrap;
+    margin-bottom: 3rem !important;
+  }
+
+  h1,
+  h2.h3,
+  h4,
+  h5,
+  h6,
+  p {
+    text-align: center !important;
+  }
+  img {
+    place-self: center;
+  }
+  button {
+    justify-self: center;
+  }
+  .nav-banner h1 {
+    font-size: 42px !important;
+    font-weight: 700 !important;
+    margin-top: 8rem !important;
+  }
+
+  .card {
+    top: 40px !important ;
+    margin-top: 0rem !important;
+  }
+
+  .capabilities .container {
+    margin-top: 60rem !important;
+  }
+  .capabilities .container .col-xl-6 .video-thumbnail .play-btn {
+    top: 210px !important;
+  }
+
+  .capabilities .container .col-xl-6 .video-thumbnail img {
+    height: 24rem !important;
+  }
+
+  .product-categories .container .row .col-xl-4 div {
+    width: 150px !important;
+    height: 155px !important;
+    h3 {
+      font-size: 16px !important;
+      position: relative !important;
+      top: 119px !important;
+      left: 10px !important;
+    }
+  }
+
+  .card-img-overlay {
+    width: 155px !important;
+    top: 72px !important;
+    height: 22rem !important;
+    padding: 12px !important;
+  }
+
+  .subscribe .container .subscribe-stuff input {
+    height: 35px !important;
+    padding: 15px !important;
+    width: 240px !important;
+    font-size: 14px !important;
+  }
+  .social-icons svg {
+    margin: 8px 10px !important;
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .product-categories h1 {
+    margin-top: 0rem !important;
+  }
+
+  .capabilities .container .text {
+    text-align: center !important;
+    display: grid !important;
+    margin-top: 3rem !important;
+    h2 {
+      font-size: 32px !important;
+    }
+  }
+
+  .capabilities .container .col-xl-6 .video-thumbnail .play-btn {
+    top: 155px !important;
+  }
+
+  .capabilities .container .col-xl-6 .video-thumbnail img {
+    height: 18rem !important;
+    top: 0px !important;
+    margin-top: 3rem;
+  }
+
+  .brands .container .row .col img {
+    width: 150px !important;
+    margin: 11px 0px !important;
+  }
+  #card1 {
+    margin-top: -4rem !important;
+  }
+
+  #card2 {
+    margin-top: -10rem !important;
+  }
+  #card3 {
+    margin-top: -10rem !important;
+  }
+
+  .card-img-overlay {
+    width: 100% !important;
+    top: 95px !important;
+    height: 18rem !important;
+    padding: 12px !important;
+
+    .card-text {
+      font-size: 18px !important;
+      margin-bottom: 22px !important;
+    }
+  }
+  .quality {
+    height: 70rem !important;
+    .col-xl-4 {
+      text-align-last: center;
+      .btn-outline-light {
+        position: relative;
+        left: 38%;
+      }
+    }
+  }
+
+  .instagram .insta-images div img {
+    width: 80px !important;
+    margin: 2px !important;
+  }
+
+  .nav-logo img {
+    width: 140px !important;
+  }
+
+  .nav-icon {
+    top: -18px !important;
+  }
+
+  .nav-banner h1 {
+    font-size: 28px !important;
+  }
+  .card-panel {
+    top: 0 !important;
+  }
+  .capabilities .container {
+    margin-top: 66rem !important;
+  }
+  .col-xl-6 .video-thumbnail img {
+    height: 18rem !important;
+  }
+
+  .product-categories .container .row .col-xl-4 div {
+    width: 108px !important;
+    height: 110px !important;
+  }
+
+  .product-categories .container .row .col-xl-4 div h3 {
+    font-size: 13px !important;
+    position: relative !important;
+    top: 82px !important;
+    left: 8px !important;
+  }
+
+  .news-testimonials .container .row .col-xl-8 .slide h3 {
+    left: 14px !important;
+    color: white !important;
+    font-size: 14px !important;
+  }
+
+  .contact .container .row .lefttt {
+    text-align-last: center;
+  }
+
+  .contact .container .row .col-xl-6 p {
+    text-align: center !important;
+    padding: 20px;
+  }
+
+  .contact .container .row .col-xl-6 .logo-text {
+    justify-content: center;
+    p {
+      padding: 0 !important;
+    }
+  }
+
+  .contact .container .row .col-xl-6 img {
+    margin-top: 2rem !important;
+  }
+
+  .subscribe .container {
+    padding: 0px 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+
+    .social-icons {
+      margin-bottom: 1rem !important;
+    }
+  }
+
+  .subscribe .container .subscribe-stuff {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    align-items: center !important;
+    justify-content: center !important;
+
+    p {
+      margin-bottom: 1rem !important;
+    }
+  }
+}

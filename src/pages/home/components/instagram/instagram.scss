@@ -1,0 +1,25 @@
+.instagram {
+  h1 {
+    margin-top: 5rem;
+  }
+  h2 {
+    font-size: 40px;
+    color: #fa0752;
+    margin-bottom: 1rem;
+  }
+
+  img {
+    width: 45px;
+    margin-bottom: 3rem;
+  }
+
+  .insta-images {
+    display: flex;
+    justify-content: center;
+    div {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

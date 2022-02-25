@@ -1,0 +1,31 @@
+.count-up {
+  margin-top: 7rem;
+  .container {
+    .row {
+      .col-xl-3 {
+        position: relative;
+        .svg-count {
+          display: flex;
+          justify-content: center;
+
+          span {
+            font-size: 60px;
+            position: relative;
+            top: -20px;
+          }
+          svg {
+            font-size: 60px;
+            margin-right: 8px;
+            color: #fa0752;
+          }
+        }
+        p {
+          text-align: center;
+          top: -18px;
+          font-size: 18px;
+          position: relative;
+        }
+      }
+    }
+  }
+}

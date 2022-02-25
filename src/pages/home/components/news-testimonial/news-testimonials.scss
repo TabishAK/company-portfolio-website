@@ -1,0 +1,78 @@
+.news-testimonials {
+  margin-top: 5rem;
+  .container {
+    .row {
+      .col-xl-8 {
+        text-align: left;
+        h1 {
+          text-align: left;
+        }
+        img {
+          text-align: left;
+          width: 45px;
+          margin-bottom: 2rem;
+          margin-top: 1rem;
+        }
+
+        .slide {
+          position: relative;
+          img {
+            width: 95%;
+            border-radius: 15px;
+            background: linear-gradient(#00144366 10%, #00144366 10%);
+          }
+
+          h3 {
+            position: absolute;
+            bottom: 55px;
+            left: 33px;
+            color: white;
+            font-size: 22px;
+          }
+        }
+      }
+      .col-xl-4 {
+        text-align: left;
+        h1 {
+          text-align: left;
+          color: #fa0752;
+        }
+        img {
+          text-align: left;
+          width: 45px;
+          margin-bottom: 2rem;
+          margin-top: 1rem;
+        }
+
+        .slide {
+          .white-para {
+            background: white;
+            width: 92%;
+            padding: 25px 60px 20px;
+
+            margin-top: 1rem;
+          }
+
+          .profile {
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            .image {
+              img {
+                width: 75px;
+                border-radius: 74px;
+              }
+            }
+
+            .name-designation {
+              align-self: center;
+              line-height: 10px;
+              margin-left: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

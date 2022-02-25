@@ -1,0 +1,134 @@
+.navbar {
+  width: 100%;
+}
+.nav-menu {
+  position: relative;
+  display: flex;
+  list-style: none;
+  text-align: center;
+  top: 5px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.nav-logo {
+  color: #f5b921;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+
+  img {
+    width: 180px !important;
+  }
+}
+
+.nav-links {
+  color: white !important;
+  text-decoration: none;
+  padding: 8.5px 0.2rem;
+  height: 100%;
+  border-bottom: 3px solid transparent;
+  margin: 16px;
+}
+.fa-code {
+  margin-left: 1rem;
+}
+
+.nav-item {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  line-height: 40px;
+  font-size: 15px;
+  a {
+    position: relative;
+    cursor: pointer;
+  }
+}
+
+.nav-item:after {
+  // content: "";
+  position: relative;
+  display: block;
+  height: 3px;
+  top: 6px;
+  width: 0;
+  background: transparent;
+  transition: width 0.7s ease, background-color 0.5s ease;
+}
+
+.nav-item:hover:after {
+  width: 100%;
+  background: #66902f;
+}
+
+.contact-link {
+}
+.no-hover:hover::after {
+  width: 0% !important;
+  background: none !important;
+}
+.nav-item .active {
+  border-bottom: 2px solid #fa0752;
+}
+
+.nav-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1pxsolid #fff;
+    position: absolute;
+    top: -36px;
+    left: -110%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: #121212;
+    left: 0px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+
+    padding-left: 0rem !important;
+  }
+  .nav-item .active {
+    color: #66902f;
+    border: none;
+  }
+  .nav-links {
+    padding: 1.5rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    z-index: 1;
+    color: #66902f;
+  }
+}
+
+@media screen and (max-width: 1036px) {
+  .nav-links {
+    padding: 0.5rem 1rem;
+  }
+}

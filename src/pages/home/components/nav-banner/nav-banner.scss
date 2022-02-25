@@ -1,0 +1,22 @@
+.nav-banner {
+  background-position-y: -360px !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: linear-gradient(#001443ad 10%, #001443ad 10%),
+    url("../../../../images/textile_main_image.jpg");
+  opacity: 0.9;
+  height: 50rem;
+  display: flow-root;
+
+  h1 {
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 5rem;
+  }
+
+  h6 {
+    color: white;
+    margin-top: 1rem;
+  }
+}

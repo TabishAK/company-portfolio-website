@@ -1,0 +1,112 @@
+.product-categories {
+  h1 {
+    margin-top: 5rem;
+  }
+  img {
+    width: 45px;
+  }
+
+  .container {
+    .row {
+      margin-top: 3rem;
+      justify-content: center;
+
+      .col-xl-4 {
+        width: 29.333333% !important;
+        margin-bottom: 2rem;
+        div {
+          width: 320px;
+          height: 270px;
+          margin-top: 2rem;
+          border-radius: 12px;
+          h3 {
+            color: white;
+            font-size: 22px;
+            position: relative;
+            top: 205px;
+            text-align: left;
+            left: 30px;
+          }
+        }
+
+        .product-1 {
+          background: linear-gradient(#00144366 10%, #00144366 10%),
+            url("../../../../images/products/1.jpg");
+          background-size: cover;
+        }
+
+        .product-1:hover {
+          background: linear-gradient(#001443ad 10%, #001443ad 10%),
+            url("../../../../images/products/1.jpg");
+          background-size: cover;
+          transition: 0.3s;
+          transform: translateY(-10px);
+        }
+        .product-2 {
+          background: linear-gradient(#00144366 10%, #00144366 10%),
+            url(../../../../images/products/2.jpg);
+          background-size: cover;
+        }
+
+        .product-2:hover {
+          background: linear-gradient(#001443ad 10%, #001443ad 10%),
+            url("../../../../images/products/2.jpg");
+          background-size: cover;
+          transition: 0.3s;
+          transform: translateY(-10px);
+        }
+
+        .product-3 {
+          background-image: linear-gradient(#00144366 10%, #00144366 10%),
+            url(../../../../images/products/3.jpg);
+          background-size: cover;
+        }
+        .product-3:hover {
+          background: linear-gradient(#001443ad 10%, #001443ad 10%),
+            url("../../../../images/products/3.jpg");
+          background-size: cover;
+          transition: 0.3s;
+          transform: translateY(-10px);
+        }
+
+        .product-4 {
+          background-image: linear-gradient(#00144366 10%, #00144366 10%),
+            url(../../../../images/products/4.jpg);
+          background-size: cover;
+        }
+        .product-4:hover {
+          background: linear-gradient(#001443ad 10%, #001443ad 10%),
+            url("../../../../images/products/4.jpg");
+          background-size: cover;
+          transition: 0.3s;
+          transform: translateY(-10px);
+        }
+
+        .product-5 {
+          background-image: linear-gradient(#00144366 10%, #00144366 10%),
+            url(../../../../images/products/5.jpg);
+          background-size: cover;
+        }
+        .product-5:hover {
+          background: linear-gradient(#001443ad 10%, #001443ad 10%),
+            url("../../../../images/products/5.jpg");
+          background-size: cover;
+          transition: 0.3s;
+          transform: translateY(-10px);
+        }
+        .product-6 {
+          background-image: linear-gradient(#00144366 10%, #00144366 10%),
+            url(../../../../images/products/6.jpg);
+          background-size: cover;
+        }
+        .product-6:hover {
+          background: linear-gradient(#001443ad 10%, #001443ad 10%),
+            url("../../../../images/products/6.jpg");
+          background-size: cover;
+          transition: 0.3s;
+          transform: translateY(-10px);
+        }
+      }
+    }
+  }
+}
